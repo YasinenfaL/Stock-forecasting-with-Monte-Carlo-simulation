@@ -18,6 +18,8 @@ This data set includes historical price data for Şişecam stock.
 * Adj Close: The closing price of the stock is the price calculated by adjusting for splits in the stock price and other factors.
 * Volume: The number of stocks realized on a given trading day.
 
-For more information about Monte Carlo: https://l24.im/PFK9av
+## Install: 
+- docker build -t monte-carlo-simulation .
 
+- docker run -it --rm monte-carlo-simulation
 
