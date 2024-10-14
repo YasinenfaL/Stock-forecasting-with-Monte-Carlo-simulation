@@ -1,25 +1,44 @@
-# Monte Carlo Simulation
+# Stock Price Prediction with Monte Carlo Simulation
 
+This project allows predicting a stock price with a Monte Carlo simulation using Python. It downloads historical stock price data, performs a Monte Carlo simulation on that data, and visualizes the results graphically.
+
+## Contents
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Setup](#setup)
+- [Simulation Results](#simulation-results)
+
+
+## Features
+
+- Downloads stock data using Yfinance API.
+- Simulates possible price predictions with Monte Carlo Simulation.
+- Visualizes results graphically using Plotly.
+- Shows the distribution of simulated prices by running 1000 simulations.
+
+## Requirements
+
+- **Docker**: You can run the project in a Docker container.
+- Alternatively, you can run it in a local environment using the following Python libraries:
+  - `numpy`
+  - `pandas`
+  - `yfinance`
+  - `scipy`
+  - `plotly`
+
+## Simulation Results
 ![monte-carlo](https://user-images.githubusercontent.com/111612847/228836535-11324c4b-049d-42eb-bf4d-6c7f24125c6e.png)
 
-## Business Problem
-An investment firm wants to predict the future price movements of Şişecam stocks. For this purpose, they have conducted fundamental analysis based on Şişecam’s financial performance over the past 3 years and decided to use Monte Carlo simulation to simulate possible scenarios. The firm aims to provide its clients with a price range for Şişecam stocks within the next 9 months, using the data obtained from the Monte Carlo simulation. The possible price range for Şişecam stocks will be determined based on the results of the Monte Carlo simulation and presented to the clients.
+## Setup
 
-## Data Quality
-This data set includes historical price data for Şişecam stock.
+You can easily run this project using Docker. Installation steps using Docker:
 
-## Variables:
+### 1. Clone the Project
 
-* Date: The date corresponding to a specific trading day.
-* Open: The opening price of the stock on a given trading day.
-* High: The highest price of the stock on a given trading day.
-* Low: The lowest price of the stock on a given trading day.
-* Close: The closing price of the stock on a given trading day.
-* Adj Close: The closing price of the stock is the price calculated by adjusting for splits in the stock price and other factors.
-* Volume: The number of stocks realized on a given trading day.
+```bash
+git clone https://github.com/your_username/monte-carlo-simulation.git
+cd monte-carlo-simulation
 
-## Install: 
-- docker build -t monte-carlo-simulation .
 
-- docker run -it --rm monte-carlo-simulation
 
