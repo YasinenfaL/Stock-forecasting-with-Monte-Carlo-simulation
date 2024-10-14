@@ -32,9 +32,6 @@ This project allows predicting a stock price with a Monte Carlo simulation using
 
 ## Setup
 
-You can easily run this project using Docker. Installation steps using Docker:
-
-### 1. Clone the Project
 
 ```bash
 git clone https://github.com/your_username/monte-carlo-simulation.git
